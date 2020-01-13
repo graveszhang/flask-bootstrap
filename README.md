@@ -6,7 +6,8 @@
 - RPTlink ```Completed```
   - Added selecting waiver branch to /app/main_fcnl/common/tablepainter_q.py
   - Maintained front-end html funtion RPTlink at templates/supra/tablepainter_qor.html
-- Username
+- Username ```Completed```
+  - Solution: ```os.popen("whoami").readline().strip()```
   - In python, all shell scripts (os.system(cmd)) will return a status code after its execution. To correctly get the stdout, below is the way. 
   ```
   from subprocess import PIPE, Popen

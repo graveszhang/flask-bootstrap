@@ -5,6 +5,6 @@
   - Modified fieldmergeList of waiver
 - RPTlink ```Completed```
   - Added selecting waiver branch to /app/main_fcnl/common/tablepainter_q.py
-  - Maintained front-end html funtion RPTlint at templates/supra/tablepainter_qor.html
+  - Maintained front-end html funtion RPTlink at templates/supra/tablepainter_qor.html
 - Username
 - workflow

@@ -23,4 +23,12 @@
   print cmdline('rpm -qa | grep "php"')
   print cmdline('nslookup google.com')
   ```
+  - Another solution also works fine on my personal pc
+  ```
+  import subprocess
+
+  proc = subprocess.Popen(["cat", "/etc/services"], stdout=subprocess.PIPE, shell=True)
+  (out, err) = proc.communicate()
+  print "program output:", out
+  ```
 - workflow

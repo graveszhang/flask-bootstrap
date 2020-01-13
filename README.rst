@@ -1,9 +1,10 @@
-===============
-Flask-Bootstrap
-===============
 
-.. image:: https://travis-ci.org/mbr/flask-bootstrap.png?branch=master
-   :target: https://travis-ci.org/mbr/flask-bootstrap
+## My Flask-Bootstrap Playground
+> Pretest for some features to implement on virtual machine 
+
+- RPTlink
+- Username
+- workflow
 
 Flask-Bootstrap packages `Bootstrap
 <http://getbootstrap.com>`_ into an extension that mostly consists
